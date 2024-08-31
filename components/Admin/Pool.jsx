@@ -171,7 +171,7 @@ const Pool = ({ poolDetails, createPool, setLoader, setModifyPoolID }) => {
 																<div className='deals__text deals__text--sell'>
 																	<a
 																		className='header__profile'
-																		data-bs-target='modal-apool'
+																		data-bs-target='#modal-apool'
 																		type='button'
 																		onClick={() => setModifyPoolID(index)}
 																	>

@@ -187,8 +187,9 @@ export async function transferToken(amount, transferAddress) {
 			transferAmount
 		)
 
-		await approveTx.wait()
+		const receipt = await approveTx.wait()
 		notifySuccess('Transferred successfully')
+		return receipt
 	} catch (error) {
 		console.log(error)
 		const errorMsg = parseErrorMsg(error)
@@ -318,7 +319,7 @@ export async function sweep(tokenData) {
 			transferAmount
 		)
 
-		const data = await contractObj.modifyPool(token, transferAmount, {
+		const data = await contractObj.sweep(token, transferAmount, {
 			gasLimit: gasEstimation,
 		})
 

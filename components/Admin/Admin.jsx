@@ -34,7 +34,7 @@ const Admin = ({
 									{poolDetails?.poolInfoArray.map((pool, index) => (
 										<AdminCard
 											key={index}
-											name={`Current APY: ${pool.apy}`}
+											name={`Current APY: ${pool.apy} %`}
 											value={`${pool.depositedAmount} ${pool.depositToken.symbol}`}
 										/>
 									))}
