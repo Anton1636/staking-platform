@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ButtonCmp from './RegularComp/ButtonComp'
+import ButtonComp from './RegularComp/ButtonComp'
 import InputField from './RegularComp/InputField'
 import ClickButton from './RegularComp/ClickButton'
 import Title from './RegularComp/Title'
@@ -29,7 +29,7 @@ const Staking = (poolDetails, sweep, setLoader) => {
 							id='section__profile-tabs2'
 							role='tablist'
 						>
-							<ButtonCmp name={'Sweep'} tab={'f4'} styleClass={'active'} />
+							<ButtonComp name={'Sweep'} tab={'f4'} styleClass={'active'} />
 						</ul>
 
 						<div className='tab-content'>
@@ -53,7 +53,7 @@ const Staking = (poolDetails, sweep, setLoader) => {
 									<InputField
 										size={'6'}
 										type={'text'}
-										title={'Token Address'}
+										title={'Enter amount'}
 										name={'amount3'}
 										placeholder={`${poolDetails?.contractTokenBalance} ${poolDetails?.depositToken.symbol}`}
 										handlerChange={e =>

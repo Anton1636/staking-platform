@@ -76,7 +76,7 @@ const Token = ({ poolDetails }) => {
 									<div className='invest__rate-wrap'>
 										<div className='invest__rate'>
 											<span>Total Stake</span>
-											<p className='green'>1 TBC = 0.00001 ETH</p>
+											<p className='green'>1 HETH = 0.00001 ETH</p>
 										</div>
 
 										<div className='invest__graph'>

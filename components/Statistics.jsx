@@ -22,7 +22,7 @@ const Statistics = ({ poolDetails }) => {
 					<div className='col-12 col-sm-6 col-xl-3'>
 						<div className='stats'>
 							<span className='stats__value'>
-								{poolDetails?.totalDepositAmount} & nbsp: {''}
+								{poolDetails?.totalDepositAmount} &nbsp;
 								{poolDetails?.depositToken.symbol}
 							</span>
 							<p className='stats__name'>Total Stake</p>

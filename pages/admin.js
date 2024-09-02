@@ -4,7 +4,7 @@ import { Header, Footer, Loader, ICOSale } from '@/components/index'
 import Admin from '../components/Admin/Admin'
 import AdminHead from '../components/Admin/AdminHead'
 import UpdateAPYModel from '../components/Admin/UpdateApyModel'
-import Auth from '../components/Amin/Auth'
+import Auth from '../components/Admin/Auth'
 import {
 	CONTRACT_DATA,
 	transferToken,

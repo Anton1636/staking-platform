@@ -1,5 +1,5 @@
 import React from 'react'
-import ButtonCmp from './RegularComp/ButtonCmp'
+import ButtonComp from './RegularComp/ButtonComp'
 
 const AdminNav = () => {
 	return (
@@ -10,12 +10,12 @@ const AdminNav = () => {
 					id='section__tabs'
 					role='tablist'
 				>
-					<ButtonCmp name={'Dashboard'} tab={1} styleClass={'active'} />
-					<ButtonCmp name={'Investing'} tab={2} />
-					<ButtonCmp name={'Staking'} tab={3} />
-					<ButtonCmp name={'Transfer'} tab={4} />
-					<ButtonCmp name={'Pool'} tab={5} />
-					<ButtonCmp name={'ICO Token'} tab={6} />
+					<ButtonComp name={'Dashboard'} tab={1} styleClass={'active'} />
+					<ButtonComp name={'Investing'} tab={2} />
+					<ButtonComp name={'Staking'} tab={3} />
+					<ButtonComp name={'Transfer'} tab={4} />
+					<ButtonComp name={'Pool'} tab={5} />
+					<ButtonComp name={'ICO Token'} tab={6} />
 				</ul>
 			</div>
 		</div>
