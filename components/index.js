@@ -1,7 +1,7 @@
 import Header from './Header'
 import Footer from './Footer'
 import Pools from './Pools'
-import PoolsModel from './PoolsModel'
+import PoolModel from './PoolModel'
 import HeroSection from './HeroSection'
 import WithdrawModal from './WithdrawModal'
 import Withdraw from './Withdraw'
@@ -21,7 +21,7 @@ export {
 	Loader,
 	Footer,
 	Pools,
-	PoolsModel,
+	PoolModel,
 	WithdrawModal,
 	Withdraw,
 	Partners,

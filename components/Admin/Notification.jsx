@@ -24,10 +24,10 @@ const Notification = ({ index, notify, poolDetails }) => {
 
 	return (
 		<div key={index} className='deposit'>
-			<div className='deposite__name'>
+			<div className='deposit__name'>
 				<span
 					style={{ color: 'white' }}
-					className={`depost__icon deposit__icon${
+					className={`deposit__icon deposit__icon${
 						index == 0 ? 'orange' : index == 1 ? 'green' : 'blue'
 					}`}
 				>

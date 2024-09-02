@@ -3,7 +3,7 @@ import { ConnectButton } from '@rainbow-me/rainbowkit'
 import { useAccount } from 'wagmi'
 import { MdGeneratingTokens } from '../components/reactICON/index'
 
-const Header = () => {
+const Header = ({ page }) => {
 	const [tokenBalComp, setTokenBalComp] = useState()
 
 	const navigation = [

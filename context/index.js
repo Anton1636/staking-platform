@@ -279,7 +279,7 @@ export async function createPool(pool) {
 	}
 }
 
-export async function claimReward(poolId, amount) {
+export async function modifyPool(poolId, amount) {
 	try {
 		notifySuccess('calling contract...')
 
@@ -333,7 +333,7 @@ export async function sweep(tokenData) {
 	}
 }
 
-export const addTokenMetaMask = async token => {
+export const addTokenMetaMask = async () => {
 	if (window.ethereum) {
 		const contract = await tokenContract()
 		const tokenDecimals = await contract.decimals()
